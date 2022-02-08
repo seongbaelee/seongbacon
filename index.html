@@ -8,27 +8,31 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="media">
-      <div class="media__image">
-        <svg class="icon">
-          <use xlink:href="images/sprite.svg#snap"></use>
-        </svg>
-      </div>
-      <div class="media__body">
-        <h3 class="media__title">Easy Start & Managed Updates</h3>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe ex aut
-          commodi perspiciatis, vero exercitationem velit veritatis eaque
-          consequatur sunt.
-        </p>
-      </div>
-    </div>
+    <blockquote class="quote">
+      <p class="quote__text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe ratione
+        commodi est hic suscipit soluta deleniti sint voluptates eos ad?
+      </p>
+      <footer>
+        <div class="media">
+          <div class="media__image">
+            <svg class="icon quote__line">
+              <use xlink:href="images/sprite.svg#line"></use>
+            </svg>
+          </div>
+          <div class="media__body">
+            <h3 class="media__title quote__author">John Smith</h3>
+            <p class="quote__organization">ABC Company</p>
+          </div>
+        </div>
+      </footer>
+    </blockquote>
   </body>
 </html>
