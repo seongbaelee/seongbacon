@@ -11,22 +11,40 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/5b6dd6ccc8.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <div class="callout callout--primary">
-      <div class="grid grid--1x2">
-        <div class="callout__content">
-          <h2 class="callout__heading">Ready to Get Started?</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt
-            laudantium facere eos rerum dolorem rem magnam labore sapiente
-            corrupti vel?
-          </p>
-        </div>
-        <a href="" class="btn btn--secondary btn--stretched">Get Started</a>
+    <div class="collapsible collapsible--expanded">
+      <header class="collapsible__header">
+        <h2 class="collapsible__heading">Item 1</h2>
+
+        <svg class="icon collapsible__chevron">
+          <use xlink:href="images/sprite.svg#chevron"></use>
+        </svg>
+      </header>
+      <div class="collapsible__content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quae
+        praesentium nesciunt sunt non nisi qui officiis quam ipsam dicta!
       </div>
     </div>
+    <div class="collapsible collapsible--expanded">
+      <header class="collapsible__header">
+        <h2 class="collapsible__heading">Item 1</h2>
+
+        <svg class="icon collapsible__chevron">
+          <use xlink:href="images/sprite.svg#chevron"></use>
+        </svg>
+      </header>
+      <div class="collapsible__content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam quae
+        praesentium nesciunt sunt non nisi qui officiis quam ipsam dicta!
+      </div>
+    </div>
+    <script src="js/main.js"></script>
   </body>
 </html>
